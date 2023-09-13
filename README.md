@@ -31,3 +31,6 @@ The technical architecture involves using Terraform to configure a Lambda functi
 By combining Terraform, Lambda functions, and CloudWatch cron events, the solution automates the start/stop actions on EC2 instances with a specific tag based on a defined schedule. This approach provides flexibility, scalability, and ease of management for managing EC2 instances in an automated manner.
 
 Please note that Terraform, Boto3 library, and the required AWS credentials need to be properly configured and available for the successful execution of this solution.
+
+
+![architecure](https://github.com/fahadh25/terraform/assets/57483996/4b0f1717-2f47-4f96-ae68-caf0a0220697)
