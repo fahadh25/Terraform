@@ -8,7 +8,7 @@ data "aws_security_group" "test-sg" {
     id = "sg-123456789"           #an existing security or create a new SG 
 }
 
-resource "aws_instance" "test-server" {
+resource "aws_instance" "test-webserver" {
     ami = "ami-0464f90f5928bccb8"
     instance_type = var.aws_instance_size.nano
     key_name = "SSH Key pair name"    #SSH key name 
